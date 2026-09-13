@@ -1,0 +1,47 @@
+name: nudge
+description: "Nudge 2.0 — Production-Grade Offline Personal Reminder and Habit Reinforcement System"
+publish_to: 'none'
+
+version: 2.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.5
+  flutter_secure_storage: ^9.2.2
+  crypto: ^3.0.5
+  encrypt: ^5.0.3
+  flutter_local_notifications: ^17.2.3
+  permission_handler: ^11.3.1
+  speech_to_text: ^7.0.0
+  image_picker: ^1.1.2
+  table_calendar: ^3.1.2
+  device_calendar: any
+  timezone: ^0.9.4
+  home_widget: any
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  shared_preferences: ^2.3.2
+  google_fonts: ^6.2.1
+  share_plus: ^10.1.4
+  file_picker: ^8.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
